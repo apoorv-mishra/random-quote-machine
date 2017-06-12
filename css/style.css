@@ -1,0 +1,58 @@
+html {
+    height: 100%;
+}
+
+.tint {
+    z-index: 1;
+    min-height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.quote-box {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background: transparent;
+    width: 80%;
+}
+
+.quote-text {
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    padding-top: 20px;
+    font-size: 50px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.quote-author {
+    font-size: 32px;
+    font-family: 'Tangerine', cursive;
+    margin-top: 20px;
+}
+
+.intro-header {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../img/bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+#new-quote-btn {
+    padding: 4px 10px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 3px;
+    outline: 0;
+    background: transparent;
+    color: #f8f8f8;
+    margin-bottom: 10px;
+}
+
+.fa-pencil {
+    padding-right: 10px;
+}
