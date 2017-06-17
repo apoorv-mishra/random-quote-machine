@@ -7,7 +7,7 @@ This is a simple project from [freeCodeCamp](https://www.freecodecamp.com/challe
 3. Get your api-key from [here](https://market.mashape.com/andruxnet/random-famous-quotes). 
 4. Create a file under *js* folder and name it *config.js*. Inside this file, copy the following snippet:
 ```
-var config = {
+const config = {
     API_KEY: "<api-key>"
 }
 ```
